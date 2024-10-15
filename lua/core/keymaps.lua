@@ -31,6 +31,8 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 -- 取消高亮
 keymap.set("n","<leader>nh", ":nohl<CR>")
 
+-- 这个是撤回的快捷键
+vim.api.nvim_set_keymap('n', 'U', '<C-r>', { noremap = true })
 
 -- plugins --
 -- nvim-tree

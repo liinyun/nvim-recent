@@ -150,6 +150,8 @@ require("lazy").setup({
         dependencies = { "rafamadriz/friendly-snippets" },
     },
     { "rafamadriz/friendly-snippets" },
+    -- 这个是多行选中的
+    -- {"mg979/vim-visual-multi"},
 }
   },
   -- Configure any other settings here. See the documentation for more details.
